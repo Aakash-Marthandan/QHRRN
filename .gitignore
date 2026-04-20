@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environment
+.venv/
+env/
+venv/
+ENV/
+
+# JAX
+.jax/
+
+# Data and Checkpoints
+*.pkl
+!core_checkpoint.pkl
+*.npy
+*.npz
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db

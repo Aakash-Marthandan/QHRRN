@@ -1,0 +1,28 @@
+# QHRRN Pre-training Task Set — 20 representative ARC tasks
+# Curated to span spatial reasoning categories:
+#
+# Translation / Tiling (4)
+007bbfb7
+025d127b
+05f2a901
+25d8a9c8
+# Color Fill / Flood (4)
+08ed6ac7
+0ca9ddb6
+1cf80156
+3c9b0459
+# Symmetry / Reflection (4)
+0520fde7
+6150a2bd
+23b5c85d
+4258a5f9
+# Rotation / Transformation (4)
+9565186b
+0b148d64
+3906de3d
+46f33fce
+# Grid Manipulation / Pattern Completion (4)
+1e0a9b12
+5521c0d9
+68b16354
+6d75e8bb

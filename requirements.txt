@@ -1,0 +1,8 @@
+# JAX configuration for Local Testing + TPU Deployment
+# The user develops locally on an Nvidia RTX 3070 GPU.
+# For local standard install, you might need to install via the jax CUDA repository:
+# pip install -U "jax[cuda12]"
+jax[cuda12] # Fallback for local RTX 3070 GPU
+# jax[tpu] -f https://storage.googleapis.com/jax-releases/libtpu_releases.html # target for GCP
+
+optax # For Langevin dynamics in Test-Time Training (TTT)

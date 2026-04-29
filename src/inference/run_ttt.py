@@ -18,7 +18,7 @@ from src.ttt.constraints import enforce_parameter_constraints
 
 # ── Constants ──────────────────────────────────────────────────────────────────
 PHYSICAL_DIM = 10       # ARC categorical colors — universally fixed
-CHI = 4                 # Bond dimension — strict information bottleneck
+CHI = 8                 # Bond dimension — doubled for pixel-perfect reasoning
 RANK = 2                # Low-rank delta factorization rank
 MAX_GRID_SIZE = 32      # Covers all ARC tasks (max 30×30). XLA compiles exactly once.
 MAX_TTT_STEPS = 1000    # Maximum TTT steps per task
